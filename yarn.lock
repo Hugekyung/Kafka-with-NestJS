@@ -1009,6 +1009,14 @@
     path-to-regexp "8.2.0"
     tslib "2.8.1"
 
+"@nestjs/microservices@^11.1.6":
+  version "11.1.6"
+  resolved "https://registry.yarnpkg.com/@nestjs/microservices/-/microservices-11.1.6.tgz#a295eba66c7beb655b6ff5e8fb45972b1147accd"
+  integrity sha512-5ibvCvZ8IBxKhpSkyAC+EBdtm0XVAu3h+GV4PmOi4bXbRvVBT3Kwqq4td2wkWDN3VqteChjQ0aTADv0jizhCrg==
+  dependencies:
+    iterare "1.2.1"
+    tslib "2.8.1"
+
 "@nestjs/platform-express@^11.0.1":
   version "11.1.6"
   resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-11.1.6.tgz#9b1dcf82a3b3fdd5761c918ad664aff83e4eacc7"
@@ -3969,6 +3977,11 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+kafkajs@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/kafkajs/-/kafkajs-2.2.4.tgz#59e6e16459d87fdf8b64be73970ed5aa42370a5b"
+  integrity sha512-j/YeapB1vfPT2iOIUn/vxdyKEuhuY2PxMBvf5JWux6iSaukAccrMtXEY/Lb7OvavDhOWME589bpLrEdnVHjfjA==
+
 keyv@^4.5.3, keyv@^4.5.4:
   version "4.5.4"
   resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.5.4.tgz#a879a99e29452f942439f2a405e3af8b31d4de93"
@@ -5503,6 +5516,7 @@ wordwrap@^1.0.0:
   integrity sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+  name wrap-ansi-cjs
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
