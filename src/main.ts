@@ -1,8 +1,11 @@
 import { NestFactory } from '@nestjs/core';
 import { MicroserviceOptions, Transport } from '@nestjs/microservices';
 import { AppModule } from './app.module';
+import { initializeKafka } from './initialization-kafka';
 
 async function bootstrap() {
+  await initializeKafka(); // * 카프카 초기 세팅(애플리케이션 실행 전에 토픽 생성)
+
   const app = await NestFactory.create(AppModule);
 
   app.connectMicroservice<MicroserviceOptions>({

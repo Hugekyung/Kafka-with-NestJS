@@ -33,6 +33,7 @@ export class AppController {
   handleMessageCreated(@Payload() message: CreateMessageDto) {
     console.log('--- New Message Received ---');
     console.log('Message Details:', message);
+    console.log('로직 수행 !');
     console.log('----------------------------');
   }
 }
